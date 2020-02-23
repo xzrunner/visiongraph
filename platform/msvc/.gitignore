@@ -1,0 +1,5 @@
+visiongraph/
+projects/*
+
+!projects/visiongraph.vcxproj
+!projects/visiongraph.vcxproj.filters

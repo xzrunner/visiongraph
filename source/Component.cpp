@@ -1,0 +1,1 @@
+#include "visiongraph/Component.h"

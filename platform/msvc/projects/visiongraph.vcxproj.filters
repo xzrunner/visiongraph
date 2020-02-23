@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="dataset">
+      <UniqueIdentifier>{8524237a-4bc6-462f-aa6d-45b9ebef175d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eval">
+      <UniqueIdentifier>{8267facf-926b-495f-8d1f-079fb91e1aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools">
+      <UniqueIdentifier>{5149bc34-7dd3-4b63-9c9f-145dc783d7fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tools\rtti">
+      <UniqueIdentifier>{290bba0b-64fa-46d3-b554-10b690feddd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="comps">
+      <UniqueIdentifier>{06afa571-636e-49d6-b3e9-22a3afc31d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dataset\comp">
+      <UniqueIdentifier>{abbb8b7a-6f67-4729-99ad-84092e9467f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\include\visiongraph\typedef.h" />
+    <ClInclude Include="..\..\..\include\visiongraph\VisionGraph.h" />
+    <ClInclude Include="..\..\..\include\visiongraph\comp_include_gen.h">
+      <Filter>tools\rtti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\visiongraph\comp_regist_cfg.h">
+      <Filter>tools\rtti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\visiongraph\comp_rttr_gen.h">
+      <Filter>tools\rtti</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\visiongraph\Component.h">
+      <Filter>dataset\comp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\visiongraph\CompVarType.h">
+      <Filter>dataset\comp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\visiongraph\comp\FileInput.parm.h">
+      <Filter>comps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\visiongraph\comp\Fileinput.h">
+      <Filter>comps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\visiongraph\Evaluator.h">
+      <Filter>eval</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\visiongraph\comp\Canny.h">
+      <Filter>comps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\visiongraph\comp\Canny.parm.h">
+      <Filter>comps</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\include\visiongraph\CompHelper.h">
+      <Filter>tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\source\VisionGraph.cpp" />
+    <ClCompile Include="..\..\..\source\RegistRTTR.cpp">
+      <Filter>tools\rtti</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Component.cpp">
+      <Filter>dataset\comp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\comp\FileInput.cpp">
+      <Filter>comps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\Evaluator.cpp">
+      <Filter>eval</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\comp\Canny.cpp">
+      <Filter>comps</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\source\CompHelper.cpp">
+      <Filter>tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
