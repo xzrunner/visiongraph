@@ -4,9 +4,6 @@
     <Filter Include="dataset">
       <UniqueIdentifier>{8524237a-4bc6-462f-aa6d-45b9ebef175d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="eval">
-      <UniqueIdentifier>{8267facf-926b-495f-8d1f-079fb91e1aa8}</UniqueIdentifier>
-    </Filter>
     <Filter Include="tools">
       <UniqueIdentifier>{5149bc34-7dd3-4b63-9c9f-145dc783d7fd}</UniqueIdentifier>
     </Filter>
@@ -44,9 +41,6 @@
     <ClInclude Include="..\..\..\include\visiongraph\comp\Fileinput.h">
       <Filter>comps</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\include\visiongraph\Evaluator.h">
-      <Filter>eval</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\include\visiongraph\comp\Canny.h">
       <Filter>comps</Filter>
     </ClInclude>
@@ -67,9 +61,6 @@
     </ClCompile>
     <ClCompile Include="..\..\..\source\comp\FileInput.cpp">
       <Filter>comps</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\source\Evaluator.cpp">
-      <Filter>eval</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\source\comp\Canny.cpp">
       <Filter>comps</Filter>

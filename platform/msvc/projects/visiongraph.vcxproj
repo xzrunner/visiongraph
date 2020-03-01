@@ -21,7 +21,6 @@
     <ClInclude Include="..\..\..\include\visiongraph\comp_include_gen.h" />
     <ClInclude Include="..\..\..\include\visiongraph\comp_regist_cfg.h" />
     <ClInclude Include="..\..\..\include\visiongraph\comp_rttr_gen.h" />
-    <ClInclude Include="..\..\..\include\visiongraph\Evaluator.h" />
     <ClInclude Include="..\..\..\include\visiongraph\typedef.h" />
     <ClInclude Include="..\..\..\include\visiongraph\VisionGraph.h" />
   </ItemGroup>
@@ -30,7 +29,6 @@
     <ClCompile Include="..\..\..\source\Component.cpp" />
     <ClCompile Include="..\..\..\source\comp\Canny.cpp" />
     <ClCompile Include="..\..\..\source\comp\FileInput.cpp" />
-    <ClCompile Include="..\..\..\source\Evaluator.cpp" />
     <ClCompile Include="..\..\..\source\RegistRTTR.cpp" />
     <ClCompile Include="..\..\..\source\VisionGraph.cpp" />
   </ItemGroup>
