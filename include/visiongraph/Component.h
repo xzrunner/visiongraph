@@ -14,8 +14,6 @@ class Component : public dag::Node<CompVarType>
 public:
     Component() {}
 
-    virtual void Execute() = 0;
-
     auto GetImage() const { return m_img; }
 
 protected:

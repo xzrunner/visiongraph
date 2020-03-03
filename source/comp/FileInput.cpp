@@ -7,7 +7,7 @@ namespace vg
 namespace comp
 {
 
-void FileInput::Execute()
+void FileInput::Execute(const std::shared_ptr<dag::Context>& ctx)
 {
     auto mat = cv::imread(m_filepath);
     if (mat.empty()) {

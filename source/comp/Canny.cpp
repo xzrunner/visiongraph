@@ -8,7 +8,7 @@ namespace vg
 namespace comp
 {
 
-void Canny::Execute()
+void Canny::Execute(const std::shared_ptr<dag::Context>& ctx)
 {
     auto prev_img = CompHelper::GetInputImage(*this, 0);
     if (!prev_img) {
